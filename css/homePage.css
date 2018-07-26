@@ -1,0 +1,47 @@
+.self-bill {
+    position: relative;
+    width: 30%;
+}
+
+.pos-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  -webkit-filter: blur(4px);
+  filter: blur(2px);
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.self-bill:hover .image {
+  opacity: 0.3;
+}
+
+.self-bill:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: ;
+  color: white;
+  font-size: 15px;
+  padding: 16px 3px;
+}
+
+@media screen and (max-width: 300px) {
+
+        .no-mobile {
+            display:block\
+        }
+}

@@ -1,0 +1,10 @@
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      text-align: center;
+      color:white !important;
+      font-size: 30px;
+ }
+  .modal-footer {
+      background-color: #f9f9f9;
+ }
+ 
